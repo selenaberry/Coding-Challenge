@@ -90,16 +90,41 @@ nav .hamburger {
 }
 
 
+
 #adventure .adventure-card {
-background-image: url("../images/adventure-card.png");
-background-size:cover ;
-height:565px;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom:20px;
+    background-image: url("../images/adventure-card.png");
+    background-size: cover;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white; /* Add this line */
 }
 
+#adventure .adventure-card1 {
+    background-image: url("../images/adventure-card1.png");
+    background-size: cover;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white; 
+}
+
+#adventure .adventure-card2 {
+    background-image: url("../images/adventure-card2.png");
+    background-size: cover;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white; 
+
+}
+}
 .adventure-card .card-items {
     margin-left:40px;
     margin-right:60px;
